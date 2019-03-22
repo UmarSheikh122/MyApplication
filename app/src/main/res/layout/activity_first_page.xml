@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FirstPage">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowRadius="@integer/abc_config_activityDefaultDur"
+        android:text="Create CV"
+        tools:layout_editor_absoluteX="-23dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:shadowRadius="@integer/abc_config_activityDefaultDur"
+        android:layout_height="56dp"
+        android:text="ListView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:shadowRadius="@integer/abc_config_activityDefaultDur"
+        android:layout_height="wrap_content"
+        android:text="API"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="341dp" />
+</LinearLayout>
